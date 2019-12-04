@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2bfcada1-7783-44e0-99cd-14df61c17d68" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pipfile" beforeDir="false" afterPath="$PROJECT_DIR$/Pipfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Procfile" beforeDir="false" afterPath="$PROJECT_DIR$/Procfile" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,15 +19,8 @@
         <entry file="file://$PROJECT_DIR$/mine/shop/econapp/views.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="46">
-              <caret line="2" column="12" lean-forward="true" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+              <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
               <folding>
-                <element signature="e#413#967#0" />
-                <element signature="e#1015#1587#0" />
-                <element signature="e#2025#2170#0" />
-                <element signature="e#2203#2350#0" />
-                <element signature="e#2381#2868#0" />
-                <element signature="e#2921#3540#0" />
-                <element signature="e#3601#4287#0" />
                 <marker date="1575423691169" expanded="true" signature="5309:5948" ph="..." />
               </folding>
             </state>
@@ -44,8 +39,8 @@
       <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mine/shop/econapp/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="621">
-              <caret line="102" column="63" lean-forward="true" selection-start-line="102" selection-start-column="63" selection-end-line="102" selection-end-column="63" />
+            <state relative-caret-position="2185">
+              <caret line="102" column="63" selection-start-line="102" selection-start-column="63" selection-end-line="102" selection-end-column="63" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
               </folding>
@@ -65,7 +60,7 @@
       <file leaf-file-name="base.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mine/shop/econapp/templates/base.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="230">
+            <state relative-caret-position="23">
               <caret line="61" column="58" selection-start-line="61" selection-start-column="58" selection-end-line="61" selection-end-column="58" />
               <folding>
                 <element signature="n#style#0;n#img#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -76,25 +71,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Pipfile" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Pipfile">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="253">
-              <caret line="11" column="21" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Pipfile.lock" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Pipfile.lock">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
       <file leaf-file-name="Procfile" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Procfile">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret column="84" selection-start-column="84" selection-end-column="84" />
+              <caret column="60" selection-start-column="60" selection-end-column="60" />
             </state>
           </provider>
         </entry>
@@ -153,6 +134,7 @@
         <option value="$PROJECT_DIR$/mine/shop/econapp/templates/base.html" />
         <option value="$PROJECT_DIR$/mine/shop/econapp/models.py" />
         <option value="$PROJECT_DIR$/mine/shop/econapp/views.py" />
+        <option value="$PROJECT_DIR$/Pipfile" />
         <option value="$PROJECT_DIR$/Procfile" />
       </list>
     </option>
@@ -167,8 +149,8 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="951" />
-    <option name="width" value="978" />
+    <option name="x" value="950" />
+    <option name="width" value="980" />
     <option name="height" value="1050" />
   </component>
   <component name="ProjectView">
@@ -192,20 +174,6 @@
               <item name="Shop" type="b2602c69:ProjectViewProjectNode" />
               <item name="Shop" type="462c0819:PsiDirectoryNode" />
               <item name="mine" type="462c0819:PsiDirectoryNode" />
-              <item name="shop" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Shop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Shop" type="462c0819:PsiDirectoryNode" />
-              <item name="mine" type="462c0819:PsiDirectoryNode" />
-              <item name="shop" type="462c0819:PsiDirectoryNode" />
-              <item name="econapp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Shop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Shop" type="462c0819:PsiDirectoryNode" />
-              <item name="mine" type="462c0819:PsiDirectoryNode" />
-              <item name="shop" type="462c0819:PsiDirectoryNode" />
               <item name="shop" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -266,7 +234,7 @@
       <window_info anchor="bottom" id="Python Console" order="10" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Terminal" order="11" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17114094" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17516778" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="4" />
       <window_info anchor="right" id="SciView" order="3" weight="0.3295302" />
@@ -303,13 +271,6 @@
         <state relative-caret-position="3726">
           <caret line="162" selection-start-line="162" selection-end-line="162" />
           <folding>
-            <element signature="e#413#967#0" />
-            <element signature="e#1015#1587#0" />
-            <element signature="e#2025#2170#0" />
-            <element signature="e#2203#2350#0" />
-            <element signature="e#2381#2868#0" />
-            <element signature="e#2921#3540#0" />
-            <element signature="e#3601#4287#0" />
             <marker date="1575423691169" expanded="true" signature="5309:5948" ph="..." />
           </folding>
         </state>
@@ -386,9 +347,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="368">
           <caret line="19" column="49" lean-forward="true" selection-start-line="19" selection-start-column="49" selection-end-line="19" selection-end-column="49" />
-          <folding>
-            <element signature="e#0#25#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -397,13 +355,6 @@
         <state relative-caret-position="4094">
           <caret line="185" column="30" selection-start-line="185" selection-start-column="30" selection-end-line="185" selection-end-column="30" />
           <folding>
-            <element signature="e#413#967#0" />
-            <element signature="e#1015#1587#0" />
-            <element signature="e#2025#2170#0" />
-            <element signature="e#2203#2350#0" />
-            <element signature="e#2381#2868#0" />
-            <element signature="e#2921#3540#0" />
-            <element signature="e#3601#4287#0" />
             <marker date="1575423691169" expanded="true" signature="5309:5948" ph="..." />
           </folding>
         </state>
@@ -442,9 +393,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="828">
           <caret line="36" column="31" selection-start-line="36" selection-start-column="31" selection-end-line="36" selection-end-column="31" />
-          <folding>
-            <element signature="e#0#25#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -453,13 +401,6 @@
         <state relative-caret-position="3979">
           <caret line="179" selection-start-line="179" selection-end-line="179" />
           <folding>
-            <element signature="e#413#967#0" />
-            <element signature="e#1015#1587#0" />
-            <element signature="e#2025#2170#0" />
-            <element signature="e#2203#2350#0" />
-            <element signature="e#2381#2868#0" />
-            <element signature="e#2921#3540#0" />
-            <element signature="e#3601#4287#0" />
             <marker date="1575423691169" expanded="true" signature="5309:5948" ph="..." />
           </folding>
         </state>
@@ -494,9 +435,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="713">
           <caret line="31" column="60" selection-start-line="31" selection-start-column="60" selection-end-line="31" selection-end-column="60" />
-          <folding>
-            <element signature="e#0#25#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -505,13 +443,6 @@
         <state relative-caret-position="3680">
           <caret line="160" column="39" selection-start-line="160" selection-start-column="39" selection-end-line="160" selection-end-column="39" />
           <folding>
-            <element signature="e#413#967#0" />
-            <element signature="e#1015#1587#0" />
-            <element signature="e#2025#2170#0" />
-            <element signature="e#2203#2350#0" />
-            <element signature="e#2381#2868#0" />
-            <element signature="e#2921#3540#0" />
-            <element signature="e#3601#4287#0" />
             <marker date="1575423691169" expanded="true" signature="5309:5948" ph="..." />
           </folding>
         </state>
@@ -534,13 +465,6 @@
         <state relative-caret-position="3680">
           <caret line="160" column="39" selection-start-line="160" selection-start-column="39" selection-end-line="160" selection-end-column="39" />
           <folding>
-            <element signature="e#413#967#0" />
-            <element signature="e#1015#1587#0" />
-            <element signature="e#2025#2170#0" />
-            <element signature="e#2203#2350#0" />
-            <element signature="e#2381#2868#0" />
-            <element signature="e#2921#3540#0" />
-            <element signature="e#3601#4287#0" />
             <marker date="1575423691169" expanded="true" signature="5309:5948" ph="..." />
           </folding>
         </state>
@@ -624,9 +548,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="46">
           <caret line="6" selection-start-line="6" selection-end-line="6" />
-          <folding>
-            <element signature="e#0#25#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -654,21 +575,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mine/shop/econapp/templates/base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="61" column="58" selection-start-line="61" selection-start-column="58" selection-end-line="61" selection-end-column="58" />
-          <folding>
-            <element signature="n#style#0;n#img#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mine/Procfile">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/mine/Procfile" />
     <entry file="file://$PROJECT_DIR$/mine/shop/shop/settings.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1058">
@@ -678,8 +585,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/mine/shop/econapp/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="621">
-          <caret line="102" column="63" lean-forward="true" selection-start-line="102" selection-start-column="63" selection-end-line="102" selection-end-column="63" />
+        <state relative-caret-position="2185">
+          <caret line="102" column="63" selection-start-line="102" selection-start-column="63" selection-end-line="102" selection-end-column="63" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
           </folding>
@@ -689,34 +596,39 @@
     <entry file="file://$PROJECT_DIR$/mine/shop/econapp/views.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="46">
-          <caret line="2" column="12" lean-forward="true" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
           <folding>
-            <element signature="e#413#967#0" />
-            <element signature="e#1015#1587#0" />
-            <element signature="e#2025#2170#0" />
-            <element signature="e#2203#2350#0" />
-            <element signature="e#2381#2868#0" />
-            <element signature="e#2921#3540#0" />
-            <element signature="e#3601#4287#0" />
             <marker date="1575423691169" expanded="true" signature="5309:5948" ph="..." />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Pipfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="11" column="21" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Pipfile.lock">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/Pipfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="8" column="19" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mine/shop/econapp/templates/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="61" column="58" selection-start-line="61" selection-start-column="58" selection-end-line="61" selection-end-column="58" />
+          <folding>
+            <element signature="n#style#0;n#img#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Procfile">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret column="84" selection-start-column="84" selection-end-column="84" />
+          <caret column="60" selection-start-column="60" selection-end-column="60" />
         </state>
       </provider>
     </entry>

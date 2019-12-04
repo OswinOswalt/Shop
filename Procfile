@@ -1,1 +1,1 @@
-web:  pipenv run python  mine/shop/manage.py runserver 0.0.0.0:8080
+web:  pipenv run python  mine/shop/manage.py runserver $PORT

@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2bfcada1-7783-44e0-99cd-14df61c17d68" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/mine/shop/Procfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mine/shop/shop/settings/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mine/shop/shop/settings/production.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mine/shop/shop/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/mine/shop/shop/settings/local.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mine/shop/shop/wsgi.py" beforeDir="false" afterPath="$PROJECT_DIR$/mine/shop/shop/wsgi.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mine/shop/shop/settings/production.py" beforeDir="false" afterPath="$PROJECT_DIR$/mine/shop/shop/settings/production.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -77,8 +72,8 @@
       <file leaf-file-name="production.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/mine/shop/shop/settings/production.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="349">
-              <caret line="95" column="30" selection-start-line="95" selection-start-column="30" selection-end-line="95" selection-end-column="30" />
+            <state relative-caret-position="416">
+              <caret line="26" column="41" lean-forward="true" selection-start-line="26" selection-start-column="41" selection-end-line="26" selection-end-column="41" />
             </state>
           </provider>
         </entry>
@@ -279,6 +274,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="762" y="0" width="781" height="840" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
@@ -286,8 +282,8 @@
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.3286517" />
       <window_info anchor="bottom" id="Python Console" order="10" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.3963068" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.36199722" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.3963068" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.36199722" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="4" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3309659" />
@@ -667,8 +663,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/mine/shop/shop/settings/production.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="349">
-          <caret line="95" column="30" selection-start-line="95" selection-start-column="30" selection-end-line="95" selection-end-column="30" />
+        <state relative-caret-position="416">
+          <caret line="26" column="41" lean-forward="true" selection-start-line="26" selection-start-column="41" selection-end-line="26" selection-end-column="41" />
         </state>
       </provider>
     </entry>

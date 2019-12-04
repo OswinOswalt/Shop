@@ -1,1 +1,1 @@
-web: pipenv run python mine/shop/manage.py runserver 8080
+web:  (cd core && gunicorn --workers 2 core.wsgi:application --bind 0.0.0.0:$PORT ) 

@@ -4,7 +4,7 @@ from django.conf import settings
 from django.contrib.auth.models import User
 from django.db.models.signals import post_save
 from django.dispatch import receiver
-from django.core.urlresolvers import reverse
+from django.urls import reverse
 from django.utils import timezone
 
 
@@ -19,13 +19,6 @@ class Category(models.Model):
         return reverse('category', kwargs={'category_slug': self.slug})
 
 
-# class Author(models.Model):
-#     name = models.CharField(max_length = 100)
-#
-#     def __str__(self):
-#         return self.name
-
-
 def image_folder(instance, filename):
     filename = instance.slug + '.' + filename.split('.')[1]
     return "{0}/{1}".format(instance.slug, filename)
@@ -38,14 +31,12 @@ class ProductManager(models.Manager):
 
 
 class Product(models.Model):
-    category = models.ForeignKey(Category)
+    category = models.ForeignKey(Category, on_delete=models.CASCADE)
     # author = models.ForeignKey(Author)
     title = models.CharField(max_length = 120)
     slug = models.SlugField()
     discription = models.TextField(default = 0)
     year = models.IntegerField(default = 2019)
-    # genre = models.TextField(default = 0)
-    # material = models.TextField(default = 0)
     image = models.ImageField(upload_to = image_folder)
     price = models.DecimalField(max_digits=7, decimal_places=2)
     available = models.BooleanField(default = True)
@@ -59,7 +50,7 @@ class Product(models.Model):
 
 
 class CartItem(models.Model):
-    product = models.ForeignKey(Product)
+    product = models.ForeignKey(Product, on_delete=models.CASCADE)
     qty = models.PositiveIntegerField(default=1)
     item_total = models.DecimalField(max_digits=9, decimal_places = 2, default = 0.00)
 
@@ -68,7 +59,7 @@ class CartItem(models.Model):
 
 
 class Cart(models.Model):
-    user = models.ForeignKey(settings.AUTH_USER_MODEL, default=True)
+    user = models.ForeignKey(settings.AUTH_USER_MODEL, default=True, on_delete=models.CASCADE)
     items = models.ManyToManyField(CartItem, blank = True)
     cart_total = models.DecimalField(max_digits=9,  decimal_places = 2, default = 0.00)
 
@@ -93,7 +84,7 @@ class Cart(models.Model):
 
 
 class Order(models.Model):
-    user = models.ForeignKey(settings.AUTH_USER_MODEL, default=True)
+    user = models.ForeignKey(settings.AUTH_USER_MODEL, default=True, on_delete=models.CASCADE)
     items = models.ManyToManyField(Cart)
     total = models.DecimalField(max_digits=9, decimal_places=2, default=0.00)
     first_name = models.CharField(max_length=200)

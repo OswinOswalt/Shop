@@ -1,7 +1,11 @@
 from __future__ import unicode_literals
 from django.db import models
 from django.conf import settings
+from django.contrib.auth.models import User
+from django.db.models.signals import post_save
+from django.dispatch import receiver
 from django.core.urlresolvers import reverse
+from django.utils import timezone
 
 
 class Category(models.Model):
@@ -15,11 +19,11 @@ class Category(models.Model):
         return reverse('category', kwargs={'category_slug': self.slug})
 
 
-class Author(models.Model):
-    name = models.CharField(max_length = 100)
-
-    def __str__(self):
-        return self.name
+# class Author(models.Model):
+#     name = models.CharField(max_length = 100)
+#
+#     def __str__(self):
+#         return self.name
 
 
 def image_folder(instance, filename):
@@ -35,13 +39,13 @@ class ProductManager(models.Manager):
 
 class Product(models.Model):
     category = models.ForeignKey(Category)
-    author = models.ForeignKey(Author)
+    # author = models.ForeignKey(Author)
     title = models.CharField(max_length = 120)
     slug = models.SlugField()
     discription = models.TextField(default = 0)
     year = models.IntegerField(default = 2019)
-    genre = models.TextField(default = 0)
-    material = models.TextField(default = 0)
+    # genre = models.TextField(default = 0)
+    # material = models.TextField(default = 0)
     image = models.ImageField(upload_to = image_folder)
     price = models.DecimalField(max_digits=7, decimal_places=2)
     available = models.BooleanField(default = True)
@@ -53,6 +57,7 @@ class Product(models.Model):
     def get_absolute_url(self):
         return reverse('product', kwargs = {'product_slug': self.slug})
 
+
 class CartItem(models.Model):
     product = models.ForeignKey(Product)
     qty = models.PositiveIntegerField(default=1)
@@ -63,7 +68,7 @@ class CartItem(models.Model):
 
 
 class Cart(models.Model):
-
+    user = models.ForeignKey(settings.AUTH_USER_MODEL, default=True)
     items = models.ManyToManyField(CartItem, blank = True)
     cart_total = models.DecimalField(max_digits=9,  decimal_places = 2, default = 0.00)
 
@@ -87,26 +92,32 @@ class Cart(models.Model):
                 cart.save()
 
 
-ORDER_STATUS_CHOICES = (
-    ("Принят в обработку", "Принят в обработку"),
-    ("Выполняется", "выполняется"),
-    ("Оплачен", "Оплачен"),
-)
-
 class Order(models.Model):
-    user = models.ForeignKey(settings.AUTH_USER_MODEL)
+    user = models.ForeignKey(settings.AUTH_USER_MODEL, default=True)
     items = models.ManyToManyField(Cart)
     total = models.DecimalField(max_digits=9, decimal_places=2, default=0.00)
-    first_name = models.CharField(max_length = 200)
-    last_name = models.CharField(max_length = 200)
-    phone = models.CharField(max_length = 20)
+    first_name = models.CharField(max_length=200)
+    last_name = models.CharField(max_length=200)
+    phone = models.CharField(max_length=20)
     address = models.CharField(max_length=250)
-    buying_type = models.CharField(max_length = 40, choices = (('Самовывоз', 'Самовывоз'), ('Доставка', 'Доставка')))
+    buying_type = models.CharField(max_length=40, choices=(('Самовывоз', 'Самовывоз'), ('Доставка', 'Доставка')))
     date = models.DateTimeField(auto_now_add=True)
     comments = models.TextField()
-    status = models.CharField(max_length=100, choices = ORDER_STATUS_CHOICES)
 
     def __str__(self):
         return "Заказ №{0}".format(str(self.id))
+
+
+class Profile(models.Model):
+    user = models.OneToOneField(User, on_delete=models.CASCADE)
+    city = models.CharField(max_length=100, blank=True)
+    phone = models.CharField(max_length=13, blank=True)
+
+
+@receiver(post_save, sender=User)
+def new_user(sender, instance, created, **kwargs):
+    if created:
+        Profile.objects.create(user=instance)
+        instance.profile.save()
 
 

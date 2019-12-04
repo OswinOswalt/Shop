@@ -1,10 +1,10 @@
-from django.shortcuts import render
-from decimal import Decimal
+from django.shortcuts import render, redirect
 from django.http import HttpResponseRedirect
 from django.core.urlresolvers import reverse
-from econapp.forms import OrderForm
-from econapp.models import Category, Product, CartItem, Cart
-
+from django.contrib.auth import login, authenticate, logout
+from django.contrib.auth.forms import UserCreationForm
+from econapp.forms import UserloginForm, SignUpForm, OrderForm
+from econapp.models import Category, Product, CartItem, Cart, Order
 
 
 def first_page(request):
@@ -141,10 +141,12 @@ def remove_from_cart_view(request, product_slug):
 
 
 def checkout_view(request):
+    categories = Category.objects.all()
     try:
         cart_id = request.session['cart_id']
         cart = Cart.objects.get(id=cart_id)
         request.session['total'] = cart.items.count()
+        cart.save()
     except:
         cart = Cart()
         cart.save()
@@ -152,7 +154,8 @@ def checkout_view(request):
         request.session['cart_id'] = cart_id
         cart = Cart.objects.get(id=cart_id)
     context ={
-        'cart': cart
+        'cart': cart,
+        'categories': categories,
     }
     return render(request, 'checkout.html', context)
 
@@ -173,4 +176,44 @@ def order_create_view(request):
         'form': form
     }
     return render(request, 'order.html', context)
+
+
+def login_view(request):
+    next_ = request.GET.get("next")
+    if request.method == 'POST':
+        form = UserloginForm(request.POST or None)
+        if form.is_valid():
+            username = request.POST.get('username')
+            password = request.POST.get('password')
+            user = authenticate(username=username.strip(), password=password.strip())
+            login(request, user)
+            next_post = request.POST.get('next')
+            rederict_path = next_ or next_post or '/'
+            return redirect(rederict_path)
+    else:
+        form = UserloginForm()
+    return render(request, 'login.html', {'form': form})
+
+
+def logout_view(request):
+    logout(request)
+    return redirect("base")
+
+
+def signup(request):
+    if request.method == 'POST':
+        forms = SignUpForm(request.POST)
+        if forms.is_valid():
+            user = forms.save()
+            user.refresh_from_db()
+            user.profile.phone = forms.cleaned_data.get('phone')
+            user.profile.city = forms.cleaned_data.get('city')
+            user.save()
+            my_password = forms.cleaned_data.get('password1')
+            user = authenticate(username=user.username, password=my_password)
+            login(request, user)
+            return redirect('base')
+    else:
+        forms = UserCreationForm()
+    return render(request, 'signup.html', {'forms': forms})
 

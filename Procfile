@@ -1,1 +1,1 @@
-web:  pipenv run python  mine/shop/manage.py runserver $PORT
+web: gunicorn shop.wsgi --log-file -

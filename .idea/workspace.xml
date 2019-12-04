@@ -2,60 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2bfcada1-7783-44e0-99cd-14df61c17d68" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Procfile" beforeDir="false" afterPath="$PROJECT_DIR$/Procfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mine/shop/econapp/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/mine/shop/econapp/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mine/shop/econapp/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/mine/shop/econapp/forms.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mine/shop/econapp/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/mine/shop/econapp/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mine/shop/econapp/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/mine/shop/econapp/templates/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mine/shop/econapp/templates/category.html" beforeDir="false" afterPath="$PROJECT_DIR$/mine/shop/econapp/templates/category.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mine/shop/econapp/templates/checkout.html" beforeDir="false" afterPath="$PROJECT_DIR$/mine/shop/econapp/templates/checkout.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mine/shop/econapp/templates/order.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mine/shop/econapp/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/mine/shop/econapp/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mine/shop/econapp/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/mine/shop/econapp/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mine/shop/media/after-rain/after-rain.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mine/shop/media/anachronism/anachronism.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mine/shop/media/anachronism/anachronism_Mf5ykwB.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mine/shop/media/anachronism/anachronism_YV4FlyX.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mine/shop/media/anachronism/anachronism_kqfqord.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mine/shop/media/architecturalfragment/architecturalfragment.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mine/shop/media/brightbouquet/brightbouquet.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mine/shop/media/bythesea/bythesea.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mine/shop/media/georgesisland/georgesisland.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mine/shop/media/happiness/happiness.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mine/shop/media/ice-cream/ice-cream.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mine/shop/media/lavender-field/lavender-field.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mine/shop/media/maydreams/maydreams.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mine/shop/media/minsk2/minsk2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mine/shop/media/noname/noname.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mine/shop/media/november-rain/november-rain.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mine/shop/media/poppy-field/poppy-field.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mine/shop/media/punisher/punisher.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mine/shop/media/quietevening/quietevening.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mine/shop/media/relief/relief.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mine/shop/media/seascape/seascape.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mine/shop/media/white-maned-horses/white-maned-horses.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mine/shop/product images/05jEOYAQgZ.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mine/shop/product images/2UMZ6nQLPa.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mine/shop/product images/2iH1gvCD4L.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mine/shop/product images/2uAs46W3Xh.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mine/shop/product images/6kSFLPJ27w.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mine/shop/product images/CVGRDzwKP7.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mine/shop/product images/DJYxzd8Q1h.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mine/shop/product images/EoGMiQY5p0.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mine/shop/product images/HlCIuPsMkE.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mine/shop/product images/Un7abew6Dy.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mine/shop/product images/UqCplvuA1k.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mine/shop/product images/bX5xjafVh8.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mine/shop/product images/cOphmLJ0zD.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mine/shop/product images/jgEZ19v8qM.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mine/shop/product images/kissclipart-emoji-swearing-clipart-pile-of-poo-emoji-face-with-e8d847f074103f85.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mine/shop/product images/pRkaSXEU89.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mine/shop/product images/turpIX2LjD.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mine/shop/product images/uidSAfvnEz.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mine/shop/product images/wzXKNDSgte.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mine/shop/product images/xIB1XLF3Y9.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mine/shop/shop/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/mine/shop/shop/settings.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -141,14 +88,18 @@
       </file>
       <file leaf-file-name="Pipfile" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Pipfile">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="253">
+              <caret line="11" column="21" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file leaf-file-name="Procfile" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Procfile">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret column="53" selection-start-column="53" selection-end-column="53" />
+              <caret column="33" selection-start-column="33" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -240,17 +191,6 @@
               <item name="Shop" type="b2602c69:ProjectViewProjectNode" />
               <item name="Shop" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="Shop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Shop" type="462c0819:PsiDirectoryNode" />
-              <item name="mine" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Shop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Shop" type="462c0819:PsiDirectoryNode" />
-              <item name="mine" type="462c0819:PsiDirectoryNode" />
-              <item name="shop" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -312,7 +252,7 @@
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17114094" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="4" />
-      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="right" id="SciView" order="3" weight="0.3295302" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
@@ -754,12 +694,16 @@
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/Pipfile">
-      <provider selected="true" editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="11" column="21" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Procfile">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret column="53" selection-start-column="53" selection-end-column="53" />
+          <caret column="33" selection-start-column="33" selection-end-column="33" />
         </state>
       </provider>
     </entry>

@@ -1,12 +1,8 @@
 from django.contrib import admin
-from econapp.models import Category,  Product, CartItem, Cart, Profile, Order
+from econapp.models import Person, User
 
-admin.site.register(Category)
-# admin.site.register(Author)
-admin.site.register(Product)
-admin.site.register(CartItem)
-admin.site.register(Cart)
-admin.site.register(Profile)
-admin.site.register(Order)
+admin.site.register(Person)
+admin.site.register(User)
+
 
 # Register your models here.

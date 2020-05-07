@@ -38,6 +38,8 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'econapp',
+
+
 ]
 
 MIDDLEWARE = [
@@ -51,6 +53,8 @@ MIDDLEWARE = [
 ]
 
 ROOT_URLCONF = 'shop.urls'
+
+# AUTH_USER_MODEL = 'econapp.PersonalUser'
 
 TEMPLATES = [
     {
@@ -69,7 +73,6 @@ TEMPLATES = [
 ]
 
 WSGI_APPLICATION = 'shop.wsgi.application'
-
 
 
 # Database
